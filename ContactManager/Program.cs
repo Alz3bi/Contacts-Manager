@@ -133,7 +133,7 @@ namespace ContactManager
         {
             string input = Console.ReadLine();
             bool success = Int32.TryParse(input, out int choice);
-            while (!success || choice < 1 || choice > 4)
+            while (!success || choice < 1 || choice > 5)
             {
                 Console.WriteLine("Please enter a valid input");
                 input = Console.ReadLine();
