@@ -30,6 +30,7 @@ namespace ContactManagerTests
             // Arrange
             string name = "John Doe";
             // Act
+            Program.AddContact(name);
             List<string> result = Program.ViewAllContacts();
             // Assert
             Assert.Contains(name, result);
